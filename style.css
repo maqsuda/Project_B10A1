@@ -61,3 +61,185 @@
 }
 
 /* Banner Section End  */
+
+/* Development Section Start  */
+
+.development_section_container {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1140px;
+    max-height: 1395px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 20px;
+}
+
+.first-development-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 70px;
+    /* border: 2px solid red; */
+}
+
+.first-development-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.first-development-content p {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+.second-development-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 60px 110px;
+    /* border: 2px solid red; */
+   
+
+}
+
+.second-development-learnmore {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* padding: 20px; */
+    background: linear-gradient(to left, rgba(13, 19, 33, 0.02),white);
+}
+
+
+
+.second-development-content h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.second-development-content p {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.second-development-content button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+
+.third-development-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 60px 110px;
+    /* border: 2px solid red; */
+    
+
+}
+
+.third-development-learnmore {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* padding: 20px; */
+    background: linear-gradient(to right, rgba(13, 19, 33, 0.02),white);
+}
+
+
+
+.third-development-content h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.third-development-content p {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.third-development-content button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.forth-development-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 60px 110px;
+    /* border: 2px solid red; */
+    
+
+}
+
+.forth-development-learnmore {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* padding: 20px; */
+    background: linear-gradient(to left, rgba(13, 19, 33, 0.02),white);
+}
+
+
+
+.forth-development-content h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.forth-development-content p {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.forth-development-content button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px;
+}
