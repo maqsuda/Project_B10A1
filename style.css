@@ -1,9 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Share section start */
+
+
 * {
     margin: 0;
     padding: 0;
 }
+
+.btn-learnMore {
+
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+
+
+
+/* Share section end */
+
+
 
 /* Banner Section Start  */
 
@@ -99,6 +123,7 @@
     font-weight: 400;
     text-align: center;
 }
+
 /* ------------------------------------------------------------------------------------------------------- */
 .second-development-content {
     display: flex;
@@ -106,7 +131,7 @@
     justify-content: left;
     padding: 60px 110px;
     /* border: 2px solid red; */
-   
+
 
 }
 
@@ -116,7 +141,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     /* padding: 20px; */
-    background: linear-gradient(to left, rgba(13, 19, 33, 0.02),white);
+    background: linear-gradient(to left, rgba(13, 19, 33, 0.02), white);
 }
 
 
@@ -139,12 +164,6 @@
     padding-bottom: 20px;
 }
 
-.second-development-content button {
-    box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
-    padding: 10px;
-}
 
 /* ----------------------------------------------------------------------------------------- */
 
@@ -155,7 +174,7 @@
     justify-content: left;
     padding: 60px 110px;
     /* border: 2px solid red; */
-    
+
 
 }
 
@@ -165,7 +184,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     /* padding: 20px; */
-    background: linear-gradient(to right, rgba(13, 19, 33, 0.02),white);
+    background: linear-gradient(to right, rgba(13, 19, 33, 0.02), white);
 }
 
 
@@ -188,13 +207,6 @@
     padding-bottom: 20px;
 }
 
-.third-development-content button {
-    box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
-    padding: 10px;
-}
-
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
@@ -204,7 +216,7 @@
     justify-content: left;
     padding: 60px 110px;
     /* border: 2px solid red; */
-    
+
 
 }
 
@@ -214,7 +226,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     /* padding: 20px; */
-    background: linear-gradient(to left, rgba(13, 19, 33, 0.02),white);
+    background: linear-gradient(to left, rgba(13, 19, 33, 0.02), white);
 }
 
 
@@ -237,9 +249,48 @@
     padding-bottom: 20px;
 }
 
-.forth-development-content button {
+
+/* -------------------------------------------------------------------------- */
+.inspiration-container {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.my-inspiration-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-height: 652px; */
+    margin: 40px;
+}
+
+.my-inspiration-content h1 {
+
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-inspiration-content p {
+
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.my-inspiration-video {
+    
     box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
-    padding: 10px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 48px 0px;
 }
