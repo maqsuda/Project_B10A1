@@ -351,13 +351,14 @@
     height: 250px;
     padding: 20px;
     margin-right: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
 }
 
 .current-target-html h3, p, img {
     padding-bottom: 20px;
+    font-family: "Azeret Mono";
 }
 
 .current-target-css {
@@ -365,7 +366,7 @@
     height: 250px;
     margin-right: 20px;
     padding: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
 }
@@ -380,7 +381,7 @@
     height: 250px;
 
     padding: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
