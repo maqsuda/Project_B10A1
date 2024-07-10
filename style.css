@@ -317,7 +317,15 @@
     font-weight: 800;
 
 }
-
+.current-target-content h1 {
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.current-target-content p{
+   text-align: center;
+}
 
 .current-target-content {
 
@@ -329,10 +337,6 @@
     align-items: center;
     justify-content: center;
 
-}
-
-.current-target-content h1 {
-    padding-bottom: 20px;
 }
 
 .current-target-html-css-javascript {
@@ -393,11 +397,79 @@
 /* -----------------------------------------------My Next Target-----------------------------------------------  */
 
 
+.next-target-container {
 
+    width: 1140px;
+    height: 871px;
+    margin: 0 auto;
+}
+
+.next-target-container h3 {
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.content h1 {
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.content {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.next-target-reactJS {
+    width: 1040px;
+    height: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin: 20px;
+}
+
+.next-target-content img {
+    margin-right: 20px;
+}
+
+.next-target-nodeJS {
+    width: 1040px;
+    height: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin: 20px;
+}
+
+.next-target-mongoDB {
+    width: 1040px;
+    height: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin: 20px;
+    /* padding: 10px; */
+}
 
 /* ------------------------I need Support---------------------------------------------------------------------- */
-
-
 
 .support_container {
     width: 1140px;
@@ -405,10 +477,7 @@
     background-image: url(images/handshake.jpg);
     border: 2px solid rgb(162, 156, 156);
     margin: 0 auto;
-    margin-top: 40px;
     border-radius: 8px;
-
-
 }
 
 .support_content {
