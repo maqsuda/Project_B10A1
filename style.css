@@ -15,7 +15,7 @@
     opacity: 0.7;
     padding: 10px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono";
     font-size: 20px;
     font-weight: 600;
 
@@ -135,7 +135,7 @@
 
 }
 
-.second-development-learnmore {
+.second-development-learn-more {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -178,7 +178,7 @@
 
 }
 
-.third-development-learnmore {
+.third-development-learn-more {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -220,7 +220,7 @@
 
 }
 
-.forth-development-learnmore {
+.forth-development-learn-more {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -312,9 +312,9 @@
     margin: 0 auto;
 }
 
-.current-target-container h3{
-font-size: 32px;
-font-weight: 800;
+.current-target-container h3 {
+    font-size: 32px;
+    font-weight: 800;
 
 }
 
@@ -381,7 +381,7 @@ font-weight: 800;
 
     padding: 20px;
     border: 2px solid red;
-    border-radius: 8px;
+    border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
 
@@ -390,8 +390,6 @@ font-weight: 800;
 }
 
 /* -----------------------------------------------My Next Target-----------------------------------------------  */
-
-
 
 
 
