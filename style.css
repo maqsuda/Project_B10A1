@@ -250,35 +250,38 @@
 }
 
 
-/* -------------------------------------------------------------------------- */
+/* ------------------------------My inspiration-------------------------------------------------------- */
 .inspiration-container {
     width: 1140px;
-    height: 775px;
+    height: 614px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    padding: 0 20px;
 }
 
 .my-inspiration-content {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* max-height: 652px; */
-    margin: 40px;
+
 }
 
 .my-inspiration-content h1 {
-
+    width: 852px;
+    height: 37px;
     color: rgb(13, 19, 33);
     font-family: "Azeret Mono";
     font-size: 32px;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 30px 0;
 }
 
 .my-inspiration-content p {
-
+    width: 852px;
+    height: 52px;
     color: rgb(13, 19, 33);
     font-family: "Azeret Mono";
     font-size: 16px;
@@ -288,9 +291,106 @@
 }
 
 .my-inspiration-video {
-    
+    margin: 20px;
+    width: 1140px;
+    height: 550;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    margin: 48px 0px;
+    /* margin: 0 auto; */
+
+
 }
+
+/* ------------------------------------------My Current Target------------------------------------------------------------- */
+
+.current-target-container {
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    border: 2px solid red;
+
+}
+
+.current-target-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+/* ------------------------I need Support------------------------- */
+
+
+
+.support_container {
+    width: 1140px;
+    height: 314px;
+    background-image: url(images/handshake.jpg);
+    border: 2px solid rgb(227, 23, 23);
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 8px;
+
+
+}
+
+.support_content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 652px;
+    margin-top: 20px;
+}
+
+.support_content h1 {
+
+    color: white;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    width: 292px;
+    height: 36px;
+    margin-bottom: 30px;
+
+}
+
+.support_content p {
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.support_content .txt_support {
+    display: inline;
+    width: 548px;
+    height: 57px;
+}
+
+
+.support_content .btn_submit {
+    width: 120px;
+    height: 58px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    flex-grow: 0;
+    margin: 0px 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.support {}
